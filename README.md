@@ -6,13 +6,15 @@ ColourScales is currently built using [Svelte](https://svelte.dev) and [Chroma.j
 
 ## Getting started
 
-You will need to be running [Node.js](https://nodejs.org/). Then download/clone this repository and install dependencies...
+You will need to be running [Node.js](https://nodejs.org/).
+
+Download/clone this repository and install dependencies...
 
 ```bash
 npm install
 ```
 
-Then start server...
+Then start a development server...
 
 ```bash
 npm run dev
