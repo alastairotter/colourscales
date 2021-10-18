@@ -1,4 +1,5 @@
 <script>
+  export let palette
   import { colors } from '../data/colors.js'
   let cols = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
   import chroma from 'chroma-js'
@@ -12,7 +13,12 @@
 
 <div class="color-palettes">
   {#each colors as c}
-    <div class="color-row">
+    <div
+      class="color-row"
+      on:click={() => {
+        clickColor(c)
+      }}
+    >
       <div class="color-name">{c}</div>
       <div class="colors-boxes">
         {#each cols as col}

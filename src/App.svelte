@@ -30,8 +30,6 @@
 
   let infoRange = false
   let infoMinMax = false
-
-  // $: console.log(values)
 </script>
 
 <main>
@@ -113,7 +111,7 @@
     </div>
   </div>
 
-  <ColorPalettes />
+  <ColorPalettes {palette} />
 </main>
 
 <style>
