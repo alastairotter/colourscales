@@ -24,4 +24,4 @@ If you go to [localhost:5000](http://localhost:5000) you should see ColourScales
 
 ## Skip installation
 
-You can see the current version of ColourScales running here: [URL](url)
+You can see the current version of ColourScales running here: [ColourScales](https://colourscales.onrender.com/)
